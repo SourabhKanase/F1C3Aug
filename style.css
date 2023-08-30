@@ -102,13 +102,13 @@ line-height: 70px;
     color:#f94a3d;
 }
 .row>.first>.firstp{
-margin-rigth:3px;
-color: var(--food-delivery-orange-color, #F94A3D);
+
+color:  #F94A3D;
 font-family: Poppins;
 font-size: 18px;
 font-style: normal;
 font-weight: 500;
-line-height: 16px; /* 88.889% */
+line-height: 16px; 
 
 }
 .row>.first>.secondp{
@@ -279,6 +279,7 @@ line-height: 40px;
     border:1px solid red;
     border-radius: 10px;
     background-color: white !important;
+    
 }
 .card-one>.bg-cl>h5{
     color: #212244;
@@ -292,6 +293,7 @@ line-height: normal;
 .button:hover{
     background-color: #F94A3D !important;
     color:white !important;
+
 }
 .anchore{
     margin-top: 40px;
@@ -308,6 +310,7 @@ line-height: normal;
 }
 .A:hover{
   color: #f94a3d !important;
+  border-bottom:2px solid #F94A3D;
 }
 .simpleline{
     color:#dddddd;
@@ -353,4 +356,113 @@ line-height: normal;
 }
 .profilediv:hover{
     background-color: white;
+    transform:scale(1.2);
+}
+.card-x{
+    height:74px ;
+    width: 500px;
+    display: flex !important;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+
+}
+.imageun{
+    width:20%;
+    height: 20%;
+}
+.myh5{
+    margin-right: 5px;
+    height:auto;
+    border:3px solid red !important;
+    border-color:#F94A3D !important;
+}
+.myp{
+    color:#69697B;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px; 
+}
+.five{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.containerone{
+    width: 80%;
+    margin-top: 100px;
+    margin: auto;
+}
+.lastimg{
+    width:100%;
+}
+.input{
+    font-family:Poppins;
+}
+.footersection{
+    margin-top: 0px;
+    height: 400px;
+    width: 100vw;
+    background: var(--food-delivery-gradient-bg, linear-gradient(312deg, #FDF0F3 4.11%, rgba(255, 253, 242, 0.50) 44.56%, #FDEEF3 85.80%)); 
+}.footerp{
+    color: #69697B;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.16px;
+}
+.socialmedia{
+    width:70%;
+    height: 10%;
+}
+.sk{
+    color:  #69697B;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+.footerdiv{
+    
+     width:85%;
+     margin:auto;
+}
+@media screen and (max-width:768px){
+    .footerdiv{
+      display: flex;
+      flex-direction: column; 
+      align-items: center;  
+    }
+    .sectionfive{
+        display: flex;
+        flex-direction: column;
+    }
+    .five{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .maintwo,.sectionthree{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .mysection{
+        margin-inline: 0px;
+    }
+    .navbarone{
+        display: flex;
+        flex-direction: column;
+    }
 }
