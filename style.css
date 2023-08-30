@@ -1,0 +1,356 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.dblock{
+    height: 25px;
+    width: 25px;
+    background-color: #f94a3d;
+    color:white;
+    font-size:25px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.companyname{
+    color: #F94A3D;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+    letter-spacing: -0.3px;
+}
+.main{
+    width:73%;
+    margin:auto;
+}
+.main>.first>h4{
+    color:  #F94A3D;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+    letter-spacing: -0.3px;
+}
+ section>a{
+    text-decoration:none;
+    border:none;
+    color:black; 
+    font-weight: 800px;
+}
+.input{
+    border:none;
+    width:150px;
+}
+.navsection3{
+    background-color: white;
+}
+.btn1{
+    text-decoration: none;
+    border: none;
+    background-color:#f94a3d;
+    color: white;
+    margin-inline: 3px;
+    border-radius: 5px;
+}
+nav{
+    margin-top: 20px;
+}
+.navitems{
+    color: #212244;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.firstsection{
+    margin-right: 80px;
+}
+.secondsection{
+    margin-right: 80px;
+}
+.btn1{
+    margin-inline: 15px;
+    padding-inline: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size:16px;
+    font-weight: 400px;
+}
+.boyimage{
+    width:100%;
+}
+.first{
+    margin-top: 130px !important;
+}
+.mybtn{
+    background-color: #f94a3d !important;
+    padding-top:7px !important;
+    padding-bottom:7px !important;
+    border-radius: 10px !important;
+}
+.first>h2{
+color: #212244;
+font-family: Poppins;
+font-size: 55px;
+font-style: normal;
+font-weight: 600;
+line-height: 70px;
+}
+.yourdoor{
+    color:#f94a3d;
+}
+.row>.first>.firstp{
+margin-rigth:3px;
+color: var(--food-delivery-orange-color, #F94A3D);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px; /* 88.889% */
+
+}
+.row>.first>.secondp{
+    color: #69697B;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.sectionthree{
+    width:80%;
+    margin:auto;
+    margin-top: 100px;
+}
+.card{
+    width:300px;
+    height:320px;
+    box-sizing: border-box;
+    border-radius:10px !important;
+    padding: 4px; 
+    margin-inline: 10px; 
+}
+.cardone{
+    border:none !important; 
+}
+.cardone>h4{
+    color:  #212244;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 58px;
+
+}
+.cardone>p{
+color: #69697B;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 31px; 
+}
+.cardtwo>img{
+    width:60%;
+    padding-left:px;
+}
+.cardtwo>h3{
+color: #212244;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px;
+text-align: center;
+
+}
+.cardtwo{
+    border:none !important;
+}
+.cardthree{
+    border:none !important;
+}
+.cardthree{
+    width:300px;
+    height:320px;
+    padding: 4px; 
+    margin-inline: 10px; 
+    
+    background-image:linear-gradient(to bottom,white,yellow) !important;
+ 
+}
+.insidecard{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;;
+    background-color:white ;
+    
+}
+.insidecard>img{
+    width:60%;
+    height: 60%;
+}
+.cardthree>.insidecard>h3{
+color:  #212244;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; 
+}
+.cardfour{
+    background-image: linear-gradient(to bottom,white,#eaeaea) !important;
+    border:none !important;
+}
+.cardfour>.insidefourth{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: white;
+    z-index: 1000;
+}
+.cardfour>.insidefourth>img{
+    width:60%;
+    height: 60%;
+}
+.cardfour>.insidefourth>h3{
+    color: #212244;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; 
+}
+.Special{
+    margin-top: 70px;
+    color: #212244;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.maintwo{
+    width: 80%;
+    margin: auto;
+    margin-top: 70px;
+
+}
+.imf{
+    width: 50% !important;
+    height: 50% !important;
+}
+.starone{
+    height: 10px;
+    
+}
+.maintwo>.card-one{
+    background-image: linear-gradient(to bottom,white,#eaeaea) !important;
+    border:none;
+}
+.bg-cl{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+.imagessection4{
+    width: 50%;
+    height: 50%;
+}
+.price{
+    color:  #F94A3D;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+.button{
+    color: #F94A3D;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+    border:1px solid red;
+    border-radius: 10px;
+    background-color: white !important;
+}
+.card-one>.bg-cl>h5{
+    color: #212244;
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.button:hover{
+    background-color: #F94A3D !important;
+    color:white !important;
+}
+.anchore{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.A{
+    text-decoration: none;
+    color: #212244;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.A:hover{
+  color: #f94a3d !important;
+}
+.simpleline{
+    color:#dddddd;
+}
+.profilediv{
+    height: 75px;
+    width:340px;
+    border-radius: 20px;
+    
+}
+.profilediv>img{
+    width: 20%;
+    height: 90%;
+}
+.profileP{
+    color:  #69697B;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+   
+}
+.profilep1{
+    
+    color: #212244;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 0px !important;
+}
+.sectionfive{
+    margin-top: 100px !important;
+    width:80%;
+    margin: auto;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.profilediv:hover{
+    background-color: white;
+}
